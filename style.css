@@ -93,6 +93,7 @@ form button{
   font-style: normal;
   font-weight: 600;
   line-height: 26px;
+  cursor: pointer;
 }
 form p{
   text-align: center;
@@ -112,6 +113,15 @@ form p span{
   font-style: normal;
   font-weight: 700;
   line-height: 21px; 
+}
+.congratulation{
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  display: none;
+  font-size: 30px;
+  color: #FFF;
 }
 
 @media(min-width:1024px){
